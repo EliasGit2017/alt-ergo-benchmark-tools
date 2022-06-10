@@ -1,0 +1,4 @@
+(executable
+ (public_name benchmarking)
+ (name main)
+ (libraries benchmarking unix curses easy-format))

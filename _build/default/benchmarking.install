@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/benchmarking/META"
+  "_build/install/default/lib/benchmarking/dune-package"
+  "_build/install/default/lib/benchmarking/opam"
+]
+bin: [
+  "_build/install/default/bin/benchmarking"
+]
