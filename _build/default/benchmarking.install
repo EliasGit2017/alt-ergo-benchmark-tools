@@ -6,3 +6,6 @@ lib: [
 bin: [
   "_build/install/default/bin/benchmarking"
 ]
+doc: [
+  "_build/install/default/doc/benchmarking/README.md"
+]

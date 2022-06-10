@@ -32,8 +32,9 @@ let () =
     Curses.endwin()
   end
   else
-    print_endline "bad !!"
+    print_endline "bad !!";
 
+  Unix.execv "/usr/bin/xdg-open" [|"/usr/bin/xdg-open"; "/home/elias/OCP/alt-ergo-benchmarks/results-viewer/web-gui/results.html"|];
 
 
 (* let () = 
