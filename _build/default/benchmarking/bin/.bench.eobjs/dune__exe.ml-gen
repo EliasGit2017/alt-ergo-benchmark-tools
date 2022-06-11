@@ -2,5 +2,13 @@
 module Bench = Dune__exe__Bench
 
 
+(** @canonical Dune__exe.Utils *)
+module Utils = Dune__exe__Utils
+
+
+(** @canonical Dune__exe.Windows_curses *)
+module Windows_curses = Dune__exe__Windows_curses
+
+
 (** @canonical Dune__exe.Worker *)
 module Worker = Dune__exe__Worker

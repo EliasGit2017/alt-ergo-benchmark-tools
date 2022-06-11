@@ -1,6 +1,6 @@
 (executable
  (public_name benchmarking)
  (name bench)
- (modules bench worker)
+ (modules bench worker utils windows_curses)
  (libraries benchmarking curses easy-format feather unix)
 )

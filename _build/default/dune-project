@@ -9,5 +9,11 @@
     (depends
         (ocaml
             (>= 4.10))
+        (feather
+            (= 0.3.0))
+        (curses
+            (= 1.0.10))
+        (easy-format
+            (= 1.3.3))
     )
 )
