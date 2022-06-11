@@ -1,0 +1,6 @@
+(** @canonical Dune__exe.Bench *)
+module Bench = Dune__exe__Bench
+
+
+(** @canonical Dune__exe.Worker *)
+module Worker = Dune__exe__Worker

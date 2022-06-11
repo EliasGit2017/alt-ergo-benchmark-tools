@@ -1,2 +1,4 @@
-(lang dune 2.9)
+(lang dune 3.2)
 (name benchmarking)
+(sections (lib .) (bin ../../bin) (doc ../../doc/benchmarking))
+(files (lib (META dune-package opam)) (bin (benchmarking)) (doc (README.md)))
