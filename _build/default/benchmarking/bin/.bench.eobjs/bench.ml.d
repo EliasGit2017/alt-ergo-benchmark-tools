@@ -1,1 +1,1 @@
-benchmarking/bin/bench.ml: Worker
+benchmarking/bin/bench.ml: Sys Unix Windows_curses Worker
